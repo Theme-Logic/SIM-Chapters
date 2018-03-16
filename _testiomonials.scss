@@ -1,0 +1,31 @@
+﻿.ContentItemHtml.testimonials.row-full {
+    overflow: auto;
+    background: #e3f2fe;
+    padding: 60px;
+    color: #016299;
+
+    h3 {
+        letter-spacing: 1px;
+        line-height: 24px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    h5 {
+        line-height: normal;
+        font-size: 24px;
+        font-weight: normal;
+        text-align: left;
+        color: #6a93c6;
+        margin: 10px 0 20px 0;
+    }
+
+    p {
+        line-height: 30px;
+        font-weight: normal;
+        font-size: 24px;
+        font-family: 'Arimo', sans-serif;
+        text-align: left;
+    }
+}
