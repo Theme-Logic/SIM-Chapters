@@ -1845,6 +1845,8 @@ div#MPFooterLink {
           width: 100%; }
         body[class*='events-'] .chapter-events ul li:nth-child(2) {
           float: right; }
+      body[class*='events-'] .chapter-events ul [id*="_BottomLink"] {
+        padding: auto 15px; }
 
   div#NAV .col-md-12 .navbar-default .navbar-nav {
     float: none;
