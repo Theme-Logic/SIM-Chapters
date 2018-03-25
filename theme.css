@@ -480,6 +480,9 @@ body {
         max-height: 100% !important; }
       .events-2 .chapter-events ul li:nth-child(2) {
         float: right; }
+  .events-2 .chapter-events [id*="_LinkToCommunityCalendar"] {
+    position: relative;
+    left: 25px; }
 
 .files-1 .recent-shared-files [id*='_BottomLink'] {
   display: none; }
