@@ -360,7 +360,8 @@ body {
       position: relative; }
       .events-1 .chapter-events ul li .title-row h3 {
         font-weight: bold;
-        width: calc(100% - 160px); }
+        width: calc(100% - 160px);
+        text-align: left; }
         .events-1 .chapter-events ul li .title-row h3 a {
           color: black; }
     .events-1 .chapter-events ul li .content-row {
@@ -1834,7 +1835,7 @@ div#MPFooterLink {
           margin: 15px 0 0px 0; }
           body[class*='events-'] .chapter-events ul li .title-row h3 {
             width: 100%;
-            text-align: center; }
+            text-align: left; }
           body[class*='events-'] .chapter-events ul li .title-row [id*='_LocationPanel'] {
             text-align: center; }
         body[class*='events-'] .chapter-events ul li .content-row {
