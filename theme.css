@@ -371,6 +371,9 @@ body {
       width: 100%; }
     .events-1 .chapter-events ul li:nth-child(2) {
       float: right; }
+.events-1 .chapter-events [id*="_LinkToCommunityCalendar"] {
+  position: relative;
+  left: 25px; }
 
 .events-2 .chapter-events {
   padding: 20px 0 !important; }
@@ -1845,8 +1848,6 @@ div#MPFooterLink {
           width: 100%; }
         body[class*='events-'] .chapter-events ul li:nth-child(2) {
           float: right; }
-      body[class*='events-'] .chapter-events ul [id*="_BottomLink"] {
-        padding: auto 15px; }
 
   div#NAV .col-md-12 .navbar-default .navbar-nav {
     float: none;
