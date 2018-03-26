@@ -1742,6 +1742,20 @@ div#MPFooterLink {
     font-family: 'Arimo', sans-serif;
     text-align: left; }
 
+.home .mem-comps {
+  max-width: 1200px;
+  margin: 75px auto; }
+  .home .mem-comps .HtmlContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .home .mem-comps .HtmlContent > * {
+      width: 100px;
+      margin: 15px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px; }
+
 @media (min-width: 769px) and (max-width: 1025px) {
   #MPheader .HLWelcome.HLWelcomeHeader, #MPheader #searchColumn {
     top: 0px; } }

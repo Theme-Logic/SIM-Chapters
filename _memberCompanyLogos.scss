@@ -1,0 +1,18 @@
+﻿.home .mem-comps{
+	max-width: 1200px;
+	margin: 75px auto;
+
+	.HtmlContent {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+  
+		> * {
+			width: 100px;
+			margin: 15px;
+			text-align: center;
+			line-height: 75px;
+			font-size: 30px;
+		}
+	}
+}
