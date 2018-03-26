@@ -182,7 +182,6 @@ function setFooter(footerTheme) {
     $("body").addClass("footer-" + footerTheme);
 }
 
-/*
 function evenOdd() {
     var arr = [], i = 1;
     $(".chapter-events, .chapter-news, .discussions-files-wrapper, .discussions-files-wrapper-2, .most-active-members, .sponsors, .logos").each(function (i, el) {
@@ -204,7 +203,6 @@ function evenOdd() {
         i = i + 1;
     });
 }
-*/
 
 $(document).ready(function () {
     $("#MPAuxNav").closest(".pull-right").removeClass("pull-right").addClass("text-center").insertAfter("#MPCopyright");
