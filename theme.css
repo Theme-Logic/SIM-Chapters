@@ -722,7 +722,10 @@ div#MPFooterLink {
   padding: 10px 0 0 0;
   position: relative;
   max-height: 145px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  /*.LogoImg.inline img.img-responsive {
+      width: 160px;
+  }*/ }
   .header-1 #MPOuterHeader:before {
     position: absolute;
     top: 0;
@@ -732,8 +735,6 @@ div#MPFooterLink {
     background: linear-gradient(to right, #000046, #299bbb);
     display: block;
     content: ''; }
-  .header-1 #MPOuterHeader .LogoImg.inline img.img-responsive {
-    width: 160px; }
   .header-1 #MPOuterHeader div#pnlCommunityTags {
     position: fixed;
     top: 65px;
