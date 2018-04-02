@@ -4,9 +4,6 @@
         background: #fff;
         padding: 10px 0 0 0;
         position: relative;
-        max-height: 145px;
-        // z-index: 99999;
-        margin-bottom: 50px;
 
         &:before {
             position: absolute;
@@ -238,8 +235,7 @@
         background: #fff;
         padding: 10px 0 0 0;
         position: relative;
-        max-height: 150px;
-
+        
         &:before {
             position: absolute;
             top: 0;
