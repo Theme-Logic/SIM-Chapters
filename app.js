@@ -231,3 +231,6 @@ $(window).on('load', function () {
     $('.simnet-preloader').fadeOut('slow');
 
 });
+
+/* HIDE REFRESH CONTACT INFO ON OTHER PROFILES */
+if( !$('[id*="upnlProfileImage"] .btn-group').length){$('.tl-update-contact').hide();}
