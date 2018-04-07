@@ -1,6 +1,3 @@
-// HIDE REFRESH CONTACT INFO ON OTHER PROFILES 
-if( !$('[id*="upnlProfileImage"] .btn-group').length){$('.tl-update-contact').hide();}
-
 function setHeader(headerTheme) {
     $("body").addClass("header-" + headerTheme);
     switch (headerTheme) {
@@ -226,6 +223,8 @@ $(document).ready(function () {
     setLogos(logosTheme);
     evenOdd();
     $("#MPOuterHeader").insertBefore("#MasterPageForm .aspNetHidden:first");
+	// HIDE REFRESH CONTACT INFO ON OTHER PROFILES 
+	if( !$('[id*="upnlProfileImage"] .btn-group').length){$('.tl-update-contact').hide();}
 })
 
 $(window).on('load', function () {
