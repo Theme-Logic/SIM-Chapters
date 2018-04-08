@@ -511,10 +511,13 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px; }
-  @media screen and (min-width: 768px) {
-    .feature-event img {
-      float: left;
-      margin-right: 30px; } }
+  .feature-event img {
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .feature-event img {
+        float: left;
+        margin-right: 30px;
+        max-width: 60%; } }
 
 .files-1 .recent-shared-files [id*='_BottomLink'] {
   display: none; }
