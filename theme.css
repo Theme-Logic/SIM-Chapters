@@ -1376,11 +1376,11 @@ div#MPFooterLink {
   margin: 0 auto;
   padding: 90px 0; }
 
-.tl-bg-grey {
+.odd {
   width: 100%;
   background: #f2f2f2; }
 
-.tl-bg-white {
+.even {
   width: 100%;
   background: #fff; }
 
