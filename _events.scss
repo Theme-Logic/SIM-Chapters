@@ -131,26 +131,19 @@
 
 
 
-        [id*='_More'] {
-            text-align: right;
-
-            a{
-                background: #c1d22a;
-                border: 0;
-                border-radius: 0;
-                color: white;
-                font-size: 14px;
-                font-weight: bold;
-                text-transform: uppercase;
-                padding: 7px 35px;
-                margin-top: 25px;
-                margin-bottom: 25px;
-
-                @media screen and (max-width: 768px){
-                    display: block;
-                }
-                
-            }
+        [id*='LinkToCalendar'] {
+            float: right;
+            background: #c1d22a;
+            border: 0;
+            border-radius: 0;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 7px 35px;
+            margin-top: 25px;
+            display: block;
+            position: relative;
         }
 
         ul {
