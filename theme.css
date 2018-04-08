@@ -512,7 +512,7 @@ body {
     bottom: 0px;
     right: 0px; }
   @media screen and (min-width: 768px) {
-    .feature-event .feature-event img {
+    .feature-event img {
       float: left;
       margin-right: 30px; } }
 
