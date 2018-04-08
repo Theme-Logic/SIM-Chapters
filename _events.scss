@@ -1,8 +1,5 @@
 ﻿.events-1 {
     .chapter-events {
-
-
-
         .image-wrap {
             height: 200px;
             overflow: hidden;
@@ -292,5 +289,45 @@
 			position: relative;
 			left: 25px;
 		}
+    }
+}
+
+.feature-event{
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 15px;
+    position: relative;
+    
+    ul{
+        overflow: hidden;
+    }
+    ol{
+        overflow: hidden;
+    }
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    a {
+        background: #c1d22a;
+        border: 0;
+        border-radius: 0;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 7px 35px;
+        margin-top: 25px;
+        float: right;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }   
+    @media screen and (min-width: 768px){
+        .feature-event img{
+            float: left;
+            margin-right: 30px;
+        }
     }
 }
