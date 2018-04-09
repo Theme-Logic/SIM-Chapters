@@ -1,3 +1,5 @@
+/* Background Images and Footer */
+/* Theme Roller */
 /*@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');*/
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   min-height: 0; }
@@ -488,7 +490,8 @@ body {
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 15px;
-  position: relative; }
+  position: relative;
+  }
   .feature-event ul {
     overflow: hidden; }
   .feature-event ol {
@@ -1373,11 +1376,6 @@ div#MPFooterLink {
   margin: 0 auto;
   padding: 90px 0; }
 
-/* HOMEPAGE PANEL SECTION HEIGHT */
-#MainCopy_ContentWrapper > .row-full .ContentItemHtml {
-  margin: auto;
-  padding: 75px 15px; }
-
 .tl-bg-grey {
   width: 100%;
   background: #f2f2f2; }
@@ -2096,4 +2094,32 @@ div#MPFooterLink {
   .header-3 #MPheader .HLWelcome.HLWelcomeHeader {
     display: none; } }
 
-/*# sourceMappingURL=theme.css.map */
+/*# sourceMappingURL=theme.css.map *//* Color Picker */
+/********************* Basics **************************/  /*  body {      color: ;  }  */    /*  a {      color: ;  }  */ /*  a.user-content-mention {      color: ;  }  */  /*  a.user-content-hashtag {      color: ;  }  */  /*  a:hover {      color: ;  }  */  /*  a.user-content-mention:hover {      color: ;  }  */ /*  a.user-content-hashtag:hover {      color: ;  }  */ /*  .bodyBackground {      background-color: ;  }  */    /*  a.user-content-hashtag {  background: ; } */  /* a.user-content-hashtag:hover {  background: ; } */    /*  .siteFrame {      background-color: ;  }  */    /*  #MPOuterMost {      border-color: ;  }  */    h1, .Heading1 {      /*color: ;*/      /*background-color: ;*/  }    h2, .Heading2, h2 a, h2 a:hover, .text-muted-h2 h2 {      /*color: ;*/      /*background-color: ;*/  }    h3, .Heading3, h3 a, h3 a:hover {      /*color: ;*/      /*background-color: ;*/  }    /*  hr, hr.delimiter, .HLLandingControl ul li {      border-bottom-color: ;  }  */    #MPOuterFooter {      /*background-color: ;*/      /*color: ;*/  }    /*  fieldset {      border-color: ;  }  */    fieldset legend {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    /*  .SearchResults .SortBy {      color: ;  }      */    /*********************** Landing Controls ******************/  .HLLandingControl .heading, .HLLandingControl h2, .headerItem, .drItemSubHeader {      /*background-color: ;*/      /*color: ;*/  }    /*  .drItemSubHeader a{         color: ;  }  */    .ContentUserControl .HLLandingControl, .ContentUserControl.HLLandingControl, .ContentItemHtml.HLLandingControl {      /*border-color: ;*/      /*color: ;*/      /*background-color: ;*/  }    /*  .HLLandingControl .Content a:not(.btn) {      color: ;  }  */    /*  .HLLandingControl .ByLine {      color: ;  }  */    /*  .HLLandingControl h5, .HLLandingControl h4, .HLEngagement h3 {      color: ;  }  */    /*  .HLLandingControl .Content h3 a, .HLAnnouncements .Content h2 a, .HLRSSReader .Content h2 a {      color: ;  }    */  /************************ Tabs **********************/  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }  /*  .nav-tabs {      border-bottom-color: ;  }  */    .nav-tabs > li > a:hover, .nav-tabs > li > a:focus, .nav .open > a:hover, .nav .open > a:focus {      /*background-color: ;*/      /*border-bottom-color: ;*/      /*color: ;*/  }  .nav-tabs > li > a {      /*background-color: ;*/      /*color: ;*/  }    /************************ Miscellaneous **********************/  /*  .SloganText {      color: ;  }  */    .ModalPopupHeading, .CustomTableModalPopup .CustomTableModalPopupHeaderRow {      /*background-color: ;*/      /*color: ;*/  }    /*  .lblratingBig {      color: ;  }  */  /************************ Tables **********************/  .Container thead .Header td, th, .ListContainer .ListHeader, .drItemSubHeader,  .table-thead-background tr th, .table-thead-background tr td {      /*background-color: ;*/      /*color: ;*/  }    /*  th a, th a:hover  {      color: ;  }  */    /*  .TableRowAlternate, .table-hover > tbody > tr:hover > td  {      background-color: ;  }    */  /************************ Menus ***********************/  /*  #MPAuxNav ul.level1 li a {      color: ;  }  */    /*  #MPAuxNav ul.level1 li ul {      background-color: ;  }  */    /*  #MPAuxNav ul.level1 li li.dynamic {      border-right-color: ;  }  */    /*  #SideMenu ul.level1 li ul {      background-color: White;  }  */    /*  .MPSideNavBottom {      color: #0069A5;  }  */    /*  .breadcrumb {      background-color: ;  }  */    /*  .breadcrumb li {      color: ;  }  */    /*  .breadcrumb li a {      color: ;  }  */    /*  .MPBottomMenu ul li a {      color: ;  }        */  /************************ Bootstrap Menus ***********************/  /*  .navbar-default, #NAV {      background-color: ;      border-color: ;  }  */    /*  .navbar-default .navbar-nav > li > a {      color: ;  }  */    .navbar .navbar-nav > .active > a,    .navbar .navbar-nav > .active > a:hover,    .navbar .navbar-nav > .active > a:focus,   .navbar .navbar-nav > li > a:hover {        /*background-color: ;*/      /*color: ;*/  }    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {      /*background-color: ;*/      /*color: ;*/  }    /*  #MPButtonBar .dropdown-menu {      background-color: ;  }  */    /*  #MPButtonBar .dropdown-menu li a {      color: ;  }  */    /*  #MPButtonBar .dropdown-menu li a:hover,    #MPButtonBar .dropdown-menu li a:focus {       background-color: ;  }  */    #MPButtonBar .dropdown-menu .active > a,   #MPButtonBar li .dropdown-menu .active > a:hover,   #MPButtonBar .dropdown-menu .dropdown-submenu .active a:hover,   #MPButtonBar .dropdown-submenu .dropdown-submenu .active a:hover {      /*background-color: ;*/      /*color: ;*/  }    /*  #MPButtonBar .dropdown-menu {      border-color: ;  }  */    /************************ Bootstrap Buttons ***********************/  .btn-primary, .ui-widget-content a.btn-primary {      /*background-color: ;*/      /*border-color: ;*/      /*color: !important;*/  }    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .open .dropdown-toggle.btn-primary {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-info {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-info:hover, .btn-info:focus, .btn-info:active, .open .dropdown-toggle.btn-info {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-success {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-success:hover, .btn-success:focus, .btn-success:active, .open .dropdown-toggle.btn-success {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-danger {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .open .dropdown-toggle.btn-danger {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-default {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .btn-default:hover, .btn-default:focus, .btn-default:active, .open .dropdown-toggle.btn-default {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .pagination > .active > span, .pagination > .active > span:hover, .pagination li.active>a, .pagination li.active>a:hover {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .pagination > li > a {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .pagination > li > a:hover {      /*background-color: ;*/      /*border-color: ;*/      /*color: ;*/  }    .label-default {      /*background-color: ;*/      /*color: ;*/  }    .badge, .badge a, a.badge a:hover {      /*background-color: ;*/      /*color: ;*/  }    .modal-header {      /*background-color: ;*/      /*color: ;*/  }    .modal-body, .panel-body {      /*background-color: ;*/      /*color: ;*/  }    .modal-footer, .panel-footer {      /*background-color: ;*/  }  /*  #MPFooterLink {      background-color: ;  }  */    /*  #MPFooterLink a {      color: ;  }  */    /*  .faceted-search-main .facets .header {      color: ;  }  */    /*  .faceted-search-main .facets .header {      background-color: ;  }  */
+/* CSS Overrides */
+.sponsors-1 .sponsors h2{
+  text-align: left;
+  color: #000;
+}
+.home .section1 img{
+  width: 100%;
+}
+.chapter-events ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.events-2 .chapter-events ul li{
+  width: 30%;
+  min-width: 245px;
+}
+
+.chapter-events h3 a{
+  color: #2e6da4 !important;
+  line-height: 125%;
+}
+.footer-content p img{
+  height: 35px;
+  display: inline-block;
+  margin: 15px 5px;
+}

@@ -181,28 +181,6 @@ function setFooter(footerTheme) {
     $("body").addClass("footer-" + footerTheme);
 }
 
-function evenOdd() {
-    var arr = [], i = 1;
-    $(".chapter-events, .chapter-news, .discussions-files-wrapper, .discussions-files-wrapper-2, .most-active-members, .sponsors, .logos").each(function (i, el) {
-        var that = $(el);
-        if (that.height() > 200) {
-            arr.push(that);
-        }
-    })
-
-    arr.forEach(function (elem) {
-        var classname = i % 2 == 0 ? "even" : "odd";
-        elem.wrap('<div class="' + classname + '"></div>');
-        if (elem.closest(".row-full")) {
-            elem.closest(".row-full").removeClass("odd even").addClass("row-full " + classname);
-        }
-        if (elem.closest(".row-wide")) {
-            elem.closest(".row-wide").removeClass("row-wide odd even").addClass("row-full " + classname);
-        }
-        i = i + 1;
-    });
-}
-
 $(document).ready(function () {
     $("#MPAuxNav").closest(".pull-right").removeClass("pull-right").addClass("text-center").insertAfter("#MPCopyright");
     $("#MPOuterFooter").addClass("row-full").insertAfter("#MPOuterMost");
@@ -221,10 +199,19 @@ $(document).ready(function () {
     setSponsors(sponsorsTheme);
     setHeader(headerTheme);
     setLogos(logosTheme);
-    evenOdd();
     $("#MPOuterHeader").insertBefore("#MasterPageForm .aspNetHidden:first");
 	// HIDE REFRESH CONTACT INFO ON OTHER PROFILES 
 	if( !$('[id*="upnlProfileImage"] .btn-group').length){$('.tl-update-contact').hide();}
+    // SET GREY BACKGROUND SECTIONS FOR HOMEPAGE
+    $('.home .bg-grey').each(function(){
+        //console.log($(this).closest('#MainCopy_ContentWrapper .row-wide').length);
+        if( $(this).closest('#MainCopy_ContentWrapper .row-full').length){
+            $(this).wrap('<div class="tl-bg-grey">');
+        }
+        if( $(this).closest('#MainCopy_ContentWrapper .row-wide').length){
+            $(this).closest('#MainCopy_ContentWrapper .row-wide').addClass('tl-bg-grey');
+        }
+    })
 })
 
 $(window).on('load', function () {

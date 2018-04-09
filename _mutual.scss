@@ -23,12 +23,18 @@
     padding: 90px 0;
 }
 
-.odd {
+/* HOMEPAGE PANEL SECTION HEIGHT */
+#MainCopy_ContentWrapper > .row-full .ContentItemHtml{
+  margin: auto;
+  padding: 75px 15px;
+}
+
+.tl-bg-grey {
     width: 100%;
     background: #f2f2f2;
 }
 
-.even {
+.tl-bg-white {
     width: 100%;
     background: #fff;
 }
