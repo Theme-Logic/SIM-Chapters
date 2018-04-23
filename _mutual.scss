@@ -141,3 +141,10 @@
 .ContentUserControl .HLLandingControl, .ContentUserControl.HLLandingControl, .ContentItemHtml .HLLandingControl, .ContentItemHtml.HLLandingControl {
     padding: 5px 0;
 }
+
+.center-block{
+	.home &{
+		max-width: 1200px;
+		margin:90px auto;
+	}
+}

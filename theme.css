@@ -1462,6 +1462,10 @@ div#MPFooterLink {
 .ContentUserControl .HLLandingControl, .ContentUserControl.HLLandingControl, .ContentItemHtml .HLLandingControl, .ContentItemHtml.HLLandingControl {
   padding: 5px 0; }
 
+.home .center-block {
+  max-width: 1200px;
+  margin: 90px auto; }
+
 .news-1 .chapter-news [id*='_MoreLinkPanel'] {
   display: block !important; }
   .news-1 .chapter-news [id*='_MoreLinkPanel'] div[id][style] {
