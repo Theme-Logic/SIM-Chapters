@@ -217,8 +217,7 @@ $(document).ready(function () {
 $(window).on('load', function () {
     $('#status').fadeOut();
     $('.simnet-preloader').fadeOut('slow');
-
+    // EVENTS OPEN IN NEW TAB
+    $('.chapter-events h3 a').attr('target','_blank');
 });
 
-// EVENTS OPEN IN NEW TAB
-$('.chapter-events h3 a').attr('target','_blank');
