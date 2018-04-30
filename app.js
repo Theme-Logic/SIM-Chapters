@@ -219,3 +219,6 @@ $(window).on('load', function () {
     $('.simnet-preloader').fadeOut('slow');
 
 });
+
+// EVENTS OPEN IN NEW TAB
+$('.chapter-events h3 a').attr('target','_blank');
