@@ -1377,6 +1377,8 @@ div#MPFooterLink {
 #MainCopy_ContentWrapper > .row-full .ContentItemHtml {
   margin: auto;
   padding: 75px 15px; }
+#MainCopy_ContentWrapper > .row-full:first-child .ContentItemHtml {
+  padding: 0px; }
 
 .tl-bg-grey {
   width: 100%;

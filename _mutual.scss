@@ -24,9 +24,15 @@
 }
 
 /* HOMEPAGE PANEL SECTION HEIGHT */
-#MainCopy_ContentWrapper > .row-full .ContentItemHtml{
-  margin: auto;
-  padding: 75px 15px;
+#MainCopy_ContentWrapper{
+
+    > .row-full .ContentItemHtml{
+        margin: auto;
+        padding: 75px 15px;
+    }
+    > .row-full:first-child .ContentItemHtml{
+        padding: 0px;
+    }
 }
 
 .tl-bg-grey {
