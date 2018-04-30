@@ -1376,9 +1376,11 @@ div#MPFooterLink {
 /* HOMEPAGE PANEL SECTION HEIGHT */
 #MainCopy_ContentWrapper > .row-full .ContentItemHtml {
   margin: auto;
-  padding: 75px 15px; }
+  padding: 75px 15px;
+  max-width: 1200px; }
 #MainCopy_ContentWrapper > .row-full:first-child .ContentItemHtml {
-  padding: 0px; }
+  padding: 0px;
+  max-width: 100%; }
 
 .tl-bg-grey {
   width: 100%;

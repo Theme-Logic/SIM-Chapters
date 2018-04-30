@@ -29,9 +29,11 @@
     > .row-full .ContentItemHtml{
         margin: auto;
         padding: 75px 15px;
+        max-width: 1200px;
     }
     > .row-full:first-child .ContentItemHtml{
         padding: 0px;
+        max-width: 100%;
     }
 }
 
