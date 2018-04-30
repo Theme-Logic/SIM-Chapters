@@ -1470,6 +1470,16 @@ div#MPFooterLink {
   max-width: 1200px;
   margin: 90px auto; }
 
+/*==== SPONSOR FLEX GRID TO BE USED ANYWHERE ON THE SITE ====*/
+.sponsors-grid .HtmlContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch; }
+  .sponsors-grid .HtmlContent > * {
+    max-width: 100%;
+    width: 250px; }
+
 .news-1 .chapter-news [id*='_MoreLinkPanel'] {
   display: block !important; }
   .news-1 .chapter-news [id*='_MoreLinkPanel'] div[id][style] {
