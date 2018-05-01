@@ -1816,7 +1816,7 @@ div#MPFooterLink {
 @media (min-width: 769px) and (max-width: 1025px) {
   #MPheader .HLWelcome.HLWelcomeHeader, #MPheader #searchColumn {
     top: 0px; } }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .news-1 .chapter-news [id*='_MoreLinkPanel'] a.btn {
     width: 100%; }
 
