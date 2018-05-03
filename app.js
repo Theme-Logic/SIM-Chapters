@@ -221,23 +221,3 @@ $(window).on('load', function () {
     $('.chapter-events h3 a').attr('target','_blank');
 });
 
-//blognews images
-function initBlogImg() {
-    var domain = document.domain,
-            domainArray = ['chapter.simnet.org'];
-    if ($.inArray(domain, domainArray) != -1) {
-        $('.tl-blog li h3 a').each(function () {
-            var tlBlogLink = (this).href + ' .blogs-block img:first';
-            $(this).closest('.title-row').before('<div class="row tlBlogImg" />');
-            $(this).closest('.title-row').prev().load(tlBlogLink, function () {
-                $('.tlBlogImg img').removeAttr('style data-mce-hlselector data-mce-hlimagekey data-skipsetcontent width height').addClass('tl-blog-img');
-            });
-        });
-    }
-    else {
-        alert('To use the Logic Blogs plugin, please register this domain "' + domain + '" at www.theme-logic.com. This will allow us to notify you of any changes to the Logic Blogs service.');
-    }
-}
-$(document).ready(function () {
-    initBlogImg();
-});
