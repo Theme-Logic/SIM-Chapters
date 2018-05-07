@@ -1,4 +1,5 @@
-﻿.tl-blog{
+﻿/*===USING THE BLOG WIDGET TO HANDLE CHAPTER NEWS ====*/
+.tl-blog{
     ul  li{
       border-bottom: none;
     }
@@ -25,6 +26,10 @@
     #sortOptionsContainer{
        display:none;
     }
+}
+/*blogviewer shortcut page*/
+.blogviewer [id*="BackButtonContainer"]{
+  display: none;
 }
 
 /*===== OLD NEWS - DELETE AFTER TRANSITION TO NEW NEWS =====*/
