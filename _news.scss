@@ -1,8 +1,13 @@
 ﻿/*===USING THE BLOG WIDGET TO HANDLE CHAPTER NEWS ====*/
 .tl-blog{
-    ul  li{
-        border-bottom: none;
-        height: 450px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+        li{
+            border-bottom: none;
+            height: 450px;
+        }
     }
     .tlBlogImg{
         position: relative;

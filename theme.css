@@ -1481,9 +1481,12 @@ div#MPFooterLink {
     width: 250px; }
 
 /*===USING THE BLOG WIDGET TO HANDLE CHAPTER NEWS ====*/
-.tl-blog ul li {
-  border-bottom: none;
-  height: 450px; }
+.tl-blog ul {
+  display: flex;
+  flex-wrap: wrap; }
+  .tl-blog ul li {
+    border-bottom: none;
+    height: 450px; }
 .tl-blog .tlBlogImg {
   position: relative;
   overflow: hidden;
