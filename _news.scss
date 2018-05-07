@@ -1,4 +1,34 @@
-﻿.news-1 {
+﻿.tl-blog{
+    ul  li{
+      border-bottom: none;
+    }
+    .tlBlogImg{
+        position: relative;
+        overflow: hidden;
+      height: 200px;
+      border: 1px solid #ccc;
+    }
+    .tl-blog-img{
+        position: absolute;
+        top: -999px;
+        bottom: -999px;
+        left: -999px;
+        right: -999px;
+        margin: auto;
+      min-width: 100%;
+      height: auto
+    }
+    > div{
+      max-width: 1200px;
+      margin: auto;
+    }
+    #sortOptionsContainer{
+       display:none;
+    }
+}
+
+/*===== OLD NEWS - DELETE AFTER TRANSITION TO NEW NEWS =====*/
+.news-1 {
 
     .chapter-news {
         [id*='_MoreLinkPanel'] {
