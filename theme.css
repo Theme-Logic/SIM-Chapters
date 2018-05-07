@@ -1482,7 +1482,8 @@ div#MPFooterLink {
 
 /*===USING THE BLOG WIDGET TO HANDLE CHAPTER NEWS ====*/
 .tl-blog ul li {
-  border-bottom: none; }
+  border-bottom: none;
+  height: 450px; }
 .tl-blog .tlBlogImg {
   position: relative;
   overflow: hidden;

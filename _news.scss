@@ -1,13 +1,14 @@
 ﻿/*===USING THE BLOG WIDGET TO HANDLE CHAPTER NEWS ====*/
 .tl-blog{
     ul  li{
-      border-bottom: none;
+        border-bottom: none;
+        height: 450px;
     }
     .tlBlogImg{
         position: relative;
         overflow: hidden;
-      height: 200px;
-      border: 1px solid #ccc;
+        height: 200px;
+        border: 1px solid #ccc;
     }
     .tl-blog-img{
         position: absolute;
@@ -16,20 +17,20 @@
         left: -999px;
         right: -999px;
         margin: auto;
-      min-width: 100%;
-      height: auto
+        min-width: 100%;
+        height: auto
     }
     > div{
-      max-width: 1200px;
-      margin: auto;
+        max-width: 1200px;
+        margin: auto;
     }
     #sortOptionsContainer{
-       display:none;
+        display:none;
     }
 }
 /*blogviewer shortcut page*/
 .blogviewer [id*="BackButtonContainer"]{
-  display: none;
+        display: none;
 }
 
 /*===== OLD NEWS - DELETE AFTER TRANSITION TO NEW NEWS =====*/
