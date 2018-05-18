@@ -24,15 +24,17 @@
 }
 
 /* HOMEPAGE PANEL SECTION HEIGHT */
-#MainCopy_ContentWrapper{
+.home #MainCopy_ContentWrapper{
 
-    > .row-full .ContentItemHtml{
+    > .row-full .ContentItemHtml,
+    .tl-blog,
+    .chapter-events{
         margin: auto;
-        padding: 75px 15px;
+        padding: 75px 15px !important;
         max-width: 1200px;
     }
     > .row-full:first-child .ContentItemHtml{
-        padding: 0px;
+        padding: 0px !important;
         max-width: 100%;
     }
 }

@@ -200,3 +200,31 @@ body {
 @import "_testiomonials.scss";
 @import "_memberCompanyLogos.scss";
 @import "_responsive.scss";
+
+/* OVERRIDES TO WORK INTO SCSS */
+.sponsors-1 .sponsors h2{
+  text-align: left;
+  color: #000;
+}
+.home .section1 img{
+  width: 100%;
+}
+.chapter-events ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.events-2 .chapter-events ul li{
+  width: 30%;
+  min-width: 245px;
+}
+
+.chapter-events h3 a{
+  color: #2e6da4 !important;
+  line-height: 125%;
+}
+.footer-content p img{
+  height: 35px;
+  display: inline-block;
+  margin: 15px 5px;
+}
