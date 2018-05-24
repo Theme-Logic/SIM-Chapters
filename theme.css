@@ -1480,11 +1480,13 @@ div#MPFooterLink {
     width: 250px; }
 
 /* HOMEPAGE MORE BUTTONS FOR BLOGS AND EVENTS */
-.tl-blog [id*="BottomLink"] div,
-.home .chapter-events [id*="pnlMoreLink"] {
+.tl-blog [id*="BottomLink"] div
+, .home .chapter-events [id*="pnlMoreLink"]
+, .home .chapter-events [id*="MainCopy_ctl10_More"] {
   text-align: right; }
-  .tl-blog [id*="BottomLink"] div a,
-  .home .chapter-events [id*="pnlMoreLink"] a {
+  .tl-blog [id*="BottomLink"] div
+  a, .home .chapter-events [id*="pnlMoreLink"]
+  a, .home .chapter-events [id*="MainCopy_ctl10_More"] a {
     background: #c1d22a;
     border: 0;
     border-radius: 0;
