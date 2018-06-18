@@ -58,7 +58,7 @@ body {
 .heading {
     h2 {
         text-align: left;
-        margin: 25px 0 10px 80px !important;
+        margin: 25px 0 10px 60px !important;
         font-family: 'Arimo', sans-serif;
         line-height: normal;
         font-size: 24px;
@@ -78,6 +78,10 @@ body {
             left: -60px;
             top: 12px;
         }
+    }
+
+    &.row + .Content, &.row + .Content li{
+        padding: 0;
     }
 }
 
