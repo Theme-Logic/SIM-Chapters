@@ -79,6 +79,9 @@ body {
             top: 12px;
         }
     }
+    .HLLandingControl & h2{
+        margin: 25px 0 10px 75px !important;
+    }
 
     &.row + .Content, &.row + .Content li{
         padding: 0;
