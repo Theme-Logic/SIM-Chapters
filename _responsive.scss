@@ -23,7 +23,7 @@
                     }
                 }
             }
-        } 
+        }
     }
 
     .news-events-wrapper-2, .discussions-files-wrapper-2 {
@@ -208,12 +208,14 @@
 
             .navbar-collapse.collapsing, .navbar-collapse.in {
                 position: fixed;
-                right: 0;
-                left: 0;
+                position: absolute;
+                right: -15px;
                 width: 100vw;
                 background: white;
                 z-index: 999;
-                /*top: 125px;*/
+                overflow: scroll;
+                -webkit-overflow-scrolling: touch;
+                top: 115px;
                 min-height: 285px;
                 box-shadow: 2px 2px 2px #ccc;
 
