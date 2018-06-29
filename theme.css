@@ -1366,7 +1366,7 @@ div#MPFooterLink {
 .news-events-wrapper, .discussions-files-wrapper {
   background: #eff2f7; }
   .news-events-wrapper .heading h2, .discussions-files-wrapper .heading h2 {
-    margin: 45px 0 25px 80px !important; }
+    margin: 45px 0 25px 60px !important; }
 
 .news-events-wrapper-2, .discussions-files-wrapper-2 {
   overflow: auto;
