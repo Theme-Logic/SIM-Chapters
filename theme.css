@@ -1893,12 +1893,18 @@ div#MPFooterLink {
   #MPheader .HLWelcome.HLWelcomeHeader, #MPheader #searchColumn {
     top: 0px; } }
 @media (max-width: 767px) {
+  .header-1 #MPOuterHeader .search-sign-up-wrapper {
+    width: 100%; }
+
   .header-1 #MPOuterHeader #searchColumn {
     max-width: 300px;
     width: 55%; }
 
   .header-1 #MPheader #Logo {
     margin: 35px 0 0px 6px; }
+
+  div#pnlManagementGear ~ .pull-right {
+    width: 100%; }
 
   .header-1 #MPheader .HLWelcome.HLWelcomeHeader, .header-1 #MPheader #searchColumn {
     display: inline-block;
