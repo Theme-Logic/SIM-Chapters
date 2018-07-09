@@ -1871,10 +1871,42 @@ div#MPFooterLink {
       line-height: 75px;
       font-size: 30px; }
 
+@media (max-width: 767px) {
+  .featured-sponsor table {
+    display: block; }
+    .featured-sponsor table tbody {
+      display: block;
+      width: 100% !important; }
+    .featured-sponsor table tr {
+      display: block; }
+      .featured-sponsor table tr td {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        width: 100% !important; }
+        .featured-sponsor table tr td a {
+          display: block; }
+          .featured-sponsor table tr td a img {
+            display: block;
+            margin: 0 auto; } }
 @media (min-width: 769px) and (max-width: 1025px) {
   #MPheader .HLWelcome.HLWelcomeHeader, #MPheader #searchColumn {
     top: 0px; } }
 @media (max-width: 767px) {
+  .header-1 #MPOuterHeader #searchColumn {
+    max-width: 300px;
+    width: 55%; }
+
+  .header-1 #MPheader #Logo {
+    margin: 35px 0 0px 6px; }
+
+  .header-1 #MPheader .HLWelcome.HLWelcomeHeader, .header-1 #MPheader #searchColumn {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0; }
+
   .news-1 .chapter-news [id*='_MoreLinkPanel'] a.btn {
     width: 100%; }
 
@@ -1903,7 +1935,13 @@ div#MPFooterLink {
     width: 150px;
     padding: 10px; }
   #MPheader .row:first-child {
-    display: none; }
+    display: block;
+    position: absolute;
+    max-width: 100vw;
+    padding: 5px 16px;
+    box-sizing: border-box; }
+    #MPheader .row:first-child * {
+      max-width: 100%; }
 
   div#FOOTER * {
     text-align: center !important;
@@ -1997,7 +2035,7 @@ div#MPFooterLink {
     padding: 25px 0 0 0 !important;
     right: 15px;
     box-shadow: none !important;
-    top: 20px !important;
+    top: 40px !important;
     background: transparent !important;
     z-index: 99999; }
     #MPOuterHeader div#NAV .navbar-collapse.collapsing, #MPOuterHeader div#NAV .navbar-collapse.in {
@@ -2009,7 +2047,7 @@ div#MPFooterLink {
       z-index: 999;
       overflow: scroll;
       -webkit-overflow-scrolling: touch;
-      top: 115px;
+      top: 60px;
       min-height: 285px;
       box-shadow: 2px 2px 2px #ccc; }
       #MPOuterHeader div#NAV .navbar-collapse.collapsing .row:first-child, #MPOuterHeader div#NAV .navbar-collapse.in .row:first-child {
