@@ -520,6 +520,22 @@ body {
         margin-right: 30px;
         max-width: 60%; } }
 
+/* PAST EVENTS */
+.past-events .oneEvent {
+  position: relative;
+  margin-top: 30px;
+  padding-left: 175px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 15px; }
+.past-events h6, .past-events h2 {
+  margin-top: 0 !important; }
+.past-events h6 {
+  position: absolute;
+  left: 0px;
+  height: 150px;
+  width: 150px;
+  overflow: hidden; }
+
 .files-1 .recent-shared-files [id*='_BottomLink'] {
   display: none; }
 .files-1 .recent-shared-files ul {

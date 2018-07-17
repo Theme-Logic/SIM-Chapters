@@ -331,3 +331,26 @@
         }
     }
 }
+
+/* PAST EVENTS */
+
+.past-events{
+
+    .oneEvent{
+      position: relative;
+      margin-top: 30px;
+      padding-left: 175px;
+      border-bottom: 1px solid #efefef;
+      padding-bottom: 15px;
+    }
+    & h6, & h2{
+      margin-top: 0 !important;
+    }
+    h6{
+      position: absolute;
+      left: 0px;
+      height: 150px;
+      width: 150px;
+      overflow: hidden;
+    }
+}
