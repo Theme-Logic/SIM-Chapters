@@ -1518,6 +1518,38 @@ div#MPFooterLink {
     padding: 7px 35px;
     margin-top: 25px; }
 
+/* CUSTOMIZABLE FLEXBOXES */
+.flexMe {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .flexMe p {
+    padding: 15px;
+    background: #eee;
+    text-align: center;
+    border: 1px solid #f00;
+    width: 100%; }
+  @media (min-width: 768px) {
+    .flexMe.flex2 p {
+      width: 50%; }
+    .flexMe.flex3 p {
+      width: 25%; }
+    .flexMe.flex4 p {
+      width: 25%; }
+    .flexMe.flex5 p {
+      width: 20%; }
+    .flexMe.flex6 p {
+      width: 16.6666666666%; } }
+  @media (min-width: 992px) {
+    .flexMe.flex7 p {
+      width: 14.28571428571429%; }
+    .flexMe.flex8 p {
+      width: 12.5%; }
+    .flexMe.flex9 p {
+      width: 11.11111111111111%; }
+    .flexMe.flex10 p {
+      width: 10%; } }
+
 /*===USING THE BLOG WIDGET TO HANDLE CHAPTER NEWS ====*/
 .tl-blog ul {
   display: flex;

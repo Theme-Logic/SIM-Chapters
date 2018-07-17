@@ -190,3 +190,76 @@
 		margin-top: 25px;
 	}
 }
+
+/* CUSTOMIZABLE FLEXBOXES */
+.flexMe{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  p{
+    padding: 15px;
+    background: #eee;
+    text-align: center;
+    border: 1px solid #f00;
+    width: 100%;
+    }
+    
+  @media (min-width: 768px){
+    &.flex2{
+      p{
+        width: 50%;
+      }
+    }
+
+    &.flex3{
+      p{
+        width: 25%;
+      }
+    }
+
+    &.flex4{
+      p{
+        width: 25%;
+      }
+    }
+    
+    &.flex5{
+      p{
+        width: 20%;
+      }
+    }
+    
+    &.flex6{
+      p{
+        width: 16.6666666666%;
+      }
+    }
+  }
+  @media (min-width: 992px){ 
+    &.flex7{
+      p{
+        width: 14.28571428571429%;
+      }
+    }
+    
+    &.flex8{
+      p{
+        width: 12.5%;
+      }
+    }
+    
+    &.flex9{
+      p{
+        width: 11.11111111111111%;
+      }
+    }
+    
+    &.flex10{
+      p{
+        width: 10%;
+      }
+    }
+    
+  }
+
+}
