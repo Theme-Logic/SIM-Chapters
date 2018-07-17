@@ -212,6 +212,10 @@ $(document).ready(function () {
             $(this).closest('#MainCopy_ContentWrapper .row-wide').addClass('tl-bg-grey');
         }
     })
+    // PAST EVENTS WRAPPERS
+    $(".past-events h6").each(function (index) {
+        $(this).nextUntil("h6").andSelf().wrapAll("<div class='oneEvent'></div>");
+    });
 })
 
 $(window).on('load', function () {
