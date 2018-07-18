@@ -1938,9 +1938,9 @@ div#MPFooterLink {
   clear: both; }
 
 .home .mem-comps {
-  max-width: 1200px;
   margin: 75px auto; }
 .mem-comps .HtmlContent {
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
