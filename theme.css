@@ -1373,6 +1373,37 @@ div#MPFooterLink {
   overflow: hidden;
   text-overflow: ellipsis; }
 
+/* CUSTOMIZABLE FLEXBOXES */
+.flexMe .HtmlContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .flexMe .HtmlContent > p {
+    padding: 15px;
+    text-align: center;
+    width: 100%; }
+
+@media (min-width: 768px) {
+  .flexMe.flex2 .HtmlContent > p {
+    width: 50%; }
+  .flexMe.flex3 .HtmlContent > p {
+    width: 25%; }
+  .flexMe.flex4 .HtmlContent > p {
+    width: 25%; }
+  .flexMe.flex5 .HtmlContent > p {
+    width: 20%; }
+  .flexMe.flex6 .HtmlContent > p {
+    width: 16.6666666666%; } }
+@media (min-width: 992px) {
+  .flexMe.flex7 .HtmlContent > p {
+    width: 14.28571428571429%; }
+  .flexMe.flex8 .HtmlContent > p {
+    width: 12.5%; }
+  .flexMe.flex9 .HtmlContent > p {
+    width: 11.11111111111111%; }
+  .flexMe.flex10 .HtmlContent > p {
+    width: 10%; } }
+
 .chapter-news, .chapter-events {
   position: relative;
   max-width: 1200px;

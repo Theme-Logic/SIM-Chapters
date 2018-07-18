@@ -1,4 +1,77 @@
-﻿.chapter-news, .chapter-events {
+﻿/* CUSTOMIZABLE FLEXBOXES */
+.flexMe .HtmlContent{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  > p{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    }
+}
+.flexMe{
+
+  @media (min-width: 768px){
+    &.flex2{
+      .HtmlContent > p{
+        width: 50%;
+      }
+    }
+
+    &.flex3{
+      .HtmlContent > p{
+        width: 25%;
+      }
+    }
+
+    &.flex4{
+      .HtmlContent > p{
+        width: 25%;
+      }
+    }
+    
+    &.flex5{
+      .HtmlContent > p{
+        width: 20%;
+      }
+    }
+    
+    &.flex6{
+      .HtmlContent > p{
+        width: 16.6666666666%;
+      }
+    }
+  }
+  @media (min-width: 992px){ 
+    &.flex7{
+      .HtmlContent > p{
+        width: 14.28571428571429%;
+      }
+    }
+    
+    &.flex8{
+      .HtmlContent > p{
+        width: 12.5%;
+      }
+    }
+    
+    &.flex9{
+      .HtmlContent > p{
+        width: 11.11111111111111%;
+      }
+    }
+    
+    &.flex10{
+      .HtmlContent > p{
+        width: 10%;
+      }
+    }
+    
+  }
+
+}
+
+.chapter-news, .chapter-events {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
