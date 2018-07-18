@@ -1944,7 +1944,7 @@ div#MPFooterLink {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .mem-comps .HtmlContent > * {
+  .mem-comps .HtmlContent > p {
     width: 100px;
     margin: 15px;
     text-align: center;
