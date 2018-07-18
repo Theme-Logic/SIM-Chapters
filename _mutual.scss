@@ -1,17 +1,18 @@
 ﻿/* CUSTOMIZABLE FLEXBOXES */
-.flexMe .HtmlContent{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: auto;
-  > p{
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-    }
-}
 .flexMe{
+	max-width: 1200px;
+	margin: auto;
+
+	.HtmlContent{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	> p{
+		padding: 15px;
+		text-align: center;
+		width: 100%;
+	}
 
   @media (min-width: 768px){
     &.flex2{
