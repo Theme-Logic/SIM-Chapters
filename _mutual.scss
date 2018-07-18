@@ -192,20 +192,18 @@
 }
 
 /* CUSTOMIZABLE FLEXBOXES */
-.flexMe > .HtmlContent{
+.flexMe .HtmlContent{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  .HtmlContent > p{
+  > p{
     padding: 15px;
-    background: #eee;
     text-align: center;
-    border: 1px solid #f00;
     width: 100%;
     }
 }
 .flexMe{
-    
+
   @media (min-width: 768px){
     &.flex2{
       .HtmlContent > p{

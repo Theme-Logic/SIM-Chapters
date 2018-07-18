@@ -1519,15 +1519,13 @@ div#MPFooterLink {
     margin-top: 25px; }
 
 /* CUSTOMIZABLE FLEXBOXES */
-.flexMe > .HtmlContent {
+.flexMe .HtmlContent {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  .flexMe > .HtmlContent .HtmlContent > p {
+  .flexMe .HtmlContent > p {
     padding: 15px;
-    background: #eee;
     text-align: center;
-    border: 1px solid #f00;
     width: 100%; }
 
 @media (min-width: 768px) {
