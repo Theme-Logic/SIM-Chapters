@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
   > p{
     padding: 15px;
     text-align: center;
