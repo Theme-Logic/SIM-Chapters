@@ -8,7 +8,7 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
-	> p{
+	> *{
 		padding: 15px;
 		text-align: center;
 		width: 100%;
@@ -16,56 +16,56 @@
 
   @media (min-width: 768px){
     &.flex2{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 50%;
       }
     }
 
     &.flex3{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 25%;
       }
     }
 
     &.flex4{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 25%;
       }
     }
     
     &.flex5{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 20%;
       }
     }
     
     &.flex6{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 16.6666666666%;
       }
     }
   }
   @media (min-width: 992px){ 
     &.flex7{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 14.28571428571429%;
       }
     }
     
     &.flex8{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 12.5%;
       }
     }
     
     &.flex9{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 11.11111111111111%;
       }
     }
     
     &.flex10{
-      .HtmlContent > p{
+      .HtmlContent > *{
         width: 10%;
       }
     }
