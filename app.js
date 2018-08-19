@@ -224,7 +224,8 @@ $(window).on('load', function () {
     // EVENTS OPEN IN NEW TAB
     $('.chapter-events h3 a').attr('target','_blank');
     $('.HLEventList h3 a').attr('target','_blank');
-
+    //PROFILE BUTTONIZE THE REFRESH MEMBER CONTACT INFO LINK
+    $('.prof-ref-default a').addClass('btn btn-success');
 });
 
 //THEME LOGIC CUSTOM BLOG WIDGET FOR CHAPTER NEWS SECTION
