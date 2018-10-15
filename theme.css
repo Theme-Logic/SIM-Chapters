@@ -409,7 +409,12 @@ body {
       padding: 0px 10px;
       position: relative;
       text-align: left;
-      border: 0; }
+      border: 0;
+      /*img {
+          width: 100%;
+          max-width: 100% !important;
+          max-height: 100% !important;
+      }*/ }
       .events-2 .chapter-events ul li * {
         font-family: 'Arimo', sans-serif !important; }
       .events-2 .chapter-events ul li .col-md-7 {
@@ -478,10 +483,6 @@ body {
         display: none; }
       .events-2 .chapter-events ul li .content-row {
         color: #606163; }
-      .events-2 .chapter-events ul li img {
-        width: 100%;
-        max-width: 100% !important;
-        max-height: 100% !important; }
       .events-2 .chapter-events ul li:nth-child(2) {
         float: right; }
   .events-2 .chapter-events [id*="_LinkToCommunityCalendar"] {
