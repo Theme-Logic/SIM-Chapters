@@ -1544,6 +1544,27 @@ div#MPFooterLink {
     max-width: 100%;
     width: 350px; }
 
+/*==== PROGRAMS FLEX GRID TO BE USED ANYWHERE ON THE SITE ====*/
+.programs-grid .HtmlContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch; }
+  .programs-grid .HtmlContent > * {
+    max-width: 100%;
+    width: 350px; }
+  .programs-grid .HtmlContent a {
+    display: inline-block;
+    background-color: #016299;
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+    color: #fff;
+    text-decoration: none !important;
+    border-radius: 4px; }
+  .programs-grid .HtmlContent a:hover {
+    opacity: 0.8; }
+
 /* HOMEPAGE MORE BUTTONS FOR BLOGS AND EVENTS */
 .tl-blog [id*="BottomLink"] div
 , .home .chapter-events [id*="pnlMoreLink"]
