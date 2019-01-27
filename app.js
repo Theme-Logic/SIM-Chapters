@@ -216,6 +216,7 @@ $(document).ready(function () {
     $(".past-events h6").each(function (index) {
         $(this).nextUntil("h6").andSelf().wrapAll("<div class='oneEvent'></div>");
     });
+    $('.tl-priv-pol a').appendTo('.tl-priv-pol + div .col-md-4:nth-child(2) p:first-child');
 })
 
 $(window).on('load', function () {
