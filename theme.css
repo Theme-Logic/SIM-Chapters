@@ -2329,6 +2329,12 @@ div#MPFooterLink {
     margin-top: 0; }
   .header-3 #MPheader .HLWelcome.HLWelcomeHeader {
     display: none; } }
+/* CUSTOM PROGRAM AND CHAPTER REQUESTS */
+.simdfw-shadowbox {
+  background-color: lightsteelblue;
+  padding: 20px;
+  box-shadow: 20px 20px 10px 0px grey; }
+
 /* OVERRIDES TO WORK INTO SCSS */
 .sponsors-1 .sponsors h2 {
   text-align: left;
