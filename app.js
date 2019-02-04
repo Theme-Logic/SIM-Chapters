@@ -216,8 +216,9 @@ $(document).ready(function () {
     $(".past-events h6").each(function (index) {
         $(this).nextUntil("h6").andSelf().wrapAll("<div class='oneEvent'></div>");
     });
-    $('.tl-priv-pol a').appendTo('.tl-priv-pol + div .col-md-4:nth-child(2) p:first-child');
-})
+    $('.footer-1 div#MPOuterFooter #FOOTER .col-md-4:nth-child(2) p:first-child').append('<br /><a href="https://higherlogicdownload.s3.amazonaws.com/SIMNET/eb5410ec-81da-4dd4-846f-1d2d08fd6cb2/UploadedImages/shared/SIM-Privacy-Policy.pdf">SIM Privacy Policy</a>')
+}
+)
 
 $(window).on('load', function () {
     $('#status').fadeOut();
