@@ -1424,8 +1424,8 @@ body {
   background: #f2f2f2;
   top: 0px;
   bottom: 0px;
-  right: 0px;
-  left: 0px;
+  right: -10px;
+  left: -10px;
   z-index: -1; }
 
 @media screen and (min-width: 992px) {
