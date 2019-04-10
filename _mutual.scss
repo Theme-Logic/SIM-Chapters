@@ -1,3 +1,7 @@
+/* HIDE BODY X OVERFLOW */
+body{
+  overflow-x: hidden;
+}
 /* CUSTOMIZABLE FLEXBOXES */
 .flexMe{
 	max-width: 1200px;
@@ -74,6 +78,28 @@
 
 }
 
+/* INTERIOR FULL WIDTH GREY BACKGROUND SECTION */
+.interior .ContentItemHtml.bg-grey{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.interior .ContentItemHtml.bg-grey:after{
+  content: "";
+  display: block;
+  position: absolute;
+  background: #f2f2f2;
+  top: 0px;
+  right: -1000px;
+  bottom: 0px;
+  left: -1000px;
+  z-index: -1;
+}
+.interior #MainCopy_ContentWrapper > .row-last{
+  padding-bottom: 0px
+}
+
+/* NEWS AND EVENTS */
 .chapter-news, .chapter-events {
     position: relative;
     max-width: 1200px;
