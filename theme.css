@@ -1423,11 +1423,15 @@ body {
   position: absolute;
   background: #f2f2f2;
   top: 0px;
-  right: -1000px;
   bottom: 0px;
-  left: -1000px;
+  right: 0px;
+  left: 0px;
   z-index: -1; }
 
+@media screen and (min-width: 992px) {
+  .interior .ContentItemHtml.bg-grey:after {
+    right: -1000px;
+    left: -1000px; } }
 .interior #MainCopy_ContentWrapper > .row-last {
   padding-bottom: 0px; }
 
