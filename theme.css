@@ -1409,7 +1409,9 @@ body {
     .flexMe.flex9 .HtmlContent > * {
       width: 11.11111111111111%; }
     .flexMe.flex10 .HtmlContent > * {
-      width: 10%; } }
+      width: 10%; }
+    .flexMe.flexPad40px .HtmlContent > * {
+      padding: 0 40px; } }
 
 /* INTERIOR FULL WIDTH GREY BACKGROUND SECTION */
 .interior .ContentItemHtml.bg-grey {

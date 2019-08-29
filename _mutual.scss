@@ -73,7 +73,11 @@ body{
         width: 10%;
       }
     }
-    
+    &.flexPad40px{
+      .HtmlContent > *{
+        padding: 0 40px;
+      }
+    }
   }
 
 }
