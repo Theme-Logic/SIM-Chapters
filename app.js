@@ -181,6 +181,16 @@ function setFooter(footerTheme) {
     $("body").addClass("footer-" + footerTheme);
 }
 
+function migrateSubDomain(){
+    $('a[href*="national.simnet.org"]').each(function(){
+        var newSubAndDomain = "www.simnet.org";
+        var oldSubAndDomain = "national.simnet.org";
+        var curHref = $(this).attr('href').toLowerCase();
+        var newHref = curHref.replace(oldSubAndDomain,newSubAndDomain);
+        $(this).attr('href',newHref);
+    });
+};
+
 $(document).ready(function () {
     $("#MPAuxNav").closest(".pull-right").removeClass("pull-right").addClass("text-center").insertAfter("#MPCopyright");
     $("#MPOuterFooter").addClass("row-full").insertAfter("#MPOuterMost");
@@ -191,6 +201,7 @@ $(document).ready(function () {
     $("#MPOuterHeader .col-md-12:first").wrap("<div class='row row-wide clearfix headrow'></div>");
     $("#NAV").insertAfter("#Logo");
     $("a.level1.MPAuxNav.static[href*='sim-national']").insertBefore("#MPSearchBlock");
+    migrateSubDomain();
     setNews(newsTheme);
     setEvents(eventsTheme);
     setDiscussions(discussionsTheme);
