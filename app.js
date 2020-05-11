@@ -215,7 +215,7 @@ $(document).ready(function () {
 	if( !$('[id*="upnlProfileImage"] .btn-group').length){$('.tl-update-contact').hide();}
     // ADD "MANAGE MEMBERSHIP" BUTTON TO THE USER'S PROFILE
     if ($('[id*="upnlProfileImage"] .btn-group').length) {
-        $('ul[id*="ProfileTabList"]').parent('.ContentUserControl').before('<p style="margin: 15px 0;"><a href="https://members.simnet.org/members/manage_profile.asp" class="btn btn-default btn-block btn-lg">Manage Membership</a></p>');
+        $('ul[id*="ProfileTabList"]').parent('.ContentUserControl').before('<p style="margin: 15px 0;"><a href="https://members.simnet.org/members/manage_profile.asp" class="btn btn-default btn-block btn-lg">Access YourMembership</a></p>');
     }
     // SET GREY BACKGROUND SECTIONS FOR HOMEPAGE
     $('.home .bg-grey').each(function(){
