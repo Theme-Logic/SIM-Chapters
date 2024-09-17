@@ -218,7 +218,7 @@ $(document).ready(function () {
         $('ul[id*="ProfileTabList"]').parent('.ContentUserControl').before('<p style="margin: 15px 0;"><a href="https://members.simnet.org/members/manage_profile.asp" class="btn btn-default btn-block btn-lg">Access YourMembership</a></p>');
     }
     // SET GREY BACKGROUND SECTIONS FOR HOMEPAGE
-    $('.home .bg-grey').each(function(){
+    /*$('.home .bg-grey').each(function(){
         //console.log($(this).closest('#MainCopy_ContentWrapper .row-wide').length);
         if( $(this).closest('#MainCopy_ContentWrapper .row-full').length){
             $(this).wrap('<div class="tl-bg-grey">');
@@ -226,7 +226,7 @@ $(document).ready(function () {
         if( $(this).closest('#MainCopy_ContentWrapper .row-wide').length){
             $(this).closest('#MainCopy_ContentWrapper .row-wide').addClass('tl-bg-grey');
         }
-    })
+    })*/
     // PAST EVENTS WRAPPERS
     $(".past-events h6").each(function (index) {
         $(this).nextUntil("h6").andSelf().wrapAll("<div class='oneEvent'></div>");
